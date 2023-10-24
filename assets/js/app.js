@@ -6,7 +6,7 @@ let result = ``;
 let movieInfo = document.getElementById('movieInfo');
 
 
-for(let i = 0;i<4;i++){
+for(let i = 0;i<movieArr.length;i++){
    result += `
              <div class="col-sm-6 col-lg-3">
              <div class="card mb-4">
